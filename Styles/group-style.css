@@ -1,0 +1,85 @@
+/* Personal Page is Here */
+
+/* Overall body styling for Home Page */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #121212;
+    color: #cccccc;
+    margin-left: 333px;
+    padding: 0;
+}
+
+/* Sidebar (sidenav) styling */
+.sidenav {
+    background-color: #333;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav h1 {
+    padding: 30px;
+    margin: 0;
+    background: #222;
+    text-align: center;
+    color: rgb(211, 133, 17);
+    font-size: 24px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li a {
+    padding: 25px 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidenav ul li a:hover {
+    background-color: #575757;
+}
+
+.social-media {
+    text-align: center; /* Center-align the social media links */
+    padding: 10px 0; /* Adds padding to the top and bottom for visual separation */
+}
+
+.social-media a {
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+    margin-top: 450px;
+}
+
+.social-media a:hover {
+    color: #ccc; /* Lightens the link color on hover for better interaction feedback */
+}
+
+
+
+#create-group-task-btn {
+border: 3px solid #121212;
+  outline: 3px;
+  padding: 20px 20px;
+  color:white;
+  background: #e19532;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,0.2)
+  }
+  
+  #create-group-task-btn {
+    filter: brightness(85%)
+  }

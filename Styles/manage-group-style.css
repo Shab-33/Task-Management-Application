@@ -1,0 +1,142 @@
+/* Overall body styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #121212;
+    color: #cccccc;
+    margin-left: 250px; /* Adjusted to not start from the very edge */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sidebar (sidenav) styling */
+.sidenav {
+    background-color: #333;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav h1 {
+    padding: 30px;
+    margin: 0;
+    background: #222;
+    text-align: center;
+    color: rgb(211, 133, 17);
+    font-size: 24px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li a {
+    padding: 25px 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidenav ul li a:hover {
+    background-color: #575757;
+}
+
+.social-media {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Aligns it to the bottom */
+}
+
+.social-media a {
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* Align titles to the left */
+h3 {
+    color: #fff;
+    padding-left: 0; /* Ensure padding is consistent */
+    text-align: left; /* Aligns the text to the left */
+    width: 100%; /* Ensures the title spans the full width of the container */
+}
+
+/* Styling for tables */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #333;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #444;
+    text-align: left;
+    color: #fff;
+}
+
+th {
+    background-color: #222;
+}
+
+tr:hover {
+    background-color: #575757;
+}
+
+/* Button styling */
+button, .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover, .button:hover {
+    background-color: #367C39;
+}
+
+#delete-button {
+    background-color: #f44336;
+}
+
+#delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Form styling for adding tasks */
+.add-task-form {
+    background: #424242;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    width: 80%; /* Adjusted for full width */
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #ccc;
+}
+
+label {
+    color: #fff;
+    margin-top: 12px;
+}

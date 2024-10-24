@@ -1,0 +1,191 @@
+/* Personal Page is Here */
+
+/* Overall body styling for Home Page */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #121212;
+    color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar (sidenav) styling */
+.sidenav {
+    background-color: #333;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav h1 {
+    padding: 30px;
+    margin: 0;
+    background: #222;
+    text-align: center;
+    color: rgb(211, 133, 17);
+    font-size: 24px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li a {
+    padding: 25px 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidenav ul li a:hover {
+    background-color: #575757;
+}
+
+.social-media {
+    text-align: center; /* Center-align the social media links */
+    padding: 10px 0; /* Adds padding to the top and bottom for visual separation */
+}
+
+.social-media a {
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+    margin-top: 450px;
+}
+
+.social-media a:hover {
+    color: #ccc; /* Lightens the link color on hover for better interaction feedback */
+}
+
+
+
+.personal-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(233, 233, 233);
+    font-size: 1.75em;
+    margin-bottom: 30px;
+    margin-top: 0px;;
+    padding:18px;
+    background:rgb(32, 31, 29);
+    border-radius: 8px;
+    border: 1.5px solid #d67c16;
+}
+
+.personal-tasks {
+    background: #272626;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.personal-tasks h3 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    font-size: 1.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #424242;
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #666;
+}
+
+table th {
+    background: #292828;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.sort-link {
+    color: #ffffff; /* Or any color fitting your design */
+    text-decoration: none;
+}
+
+.sort-link i {
+    margin-left: 5px; /* Spacing between text and icon */
+}
+
+.sort-link:hover {
+    color: #cccccc; /* Color on hover */
+    text-decoration: underline; /* Adds underline on hover if needed */
+}
+
+table tr:hover {
+    background-color: #8a4606;
+}
+
+button {
+    background-color: #cc7f1b;
+    color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 33px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing between buttons */
+}
+
+.edit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 1.5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 0px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+}
+
+
+
+
+
+/*MOdal*/
+

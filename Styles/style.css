@@ -1,0 +1,137 @@
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #ffffff;
+}
+
+/* Sidebar (sidenav) styling */
+.sidenav {
+    background-color: #333;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav h1 {
+    padding: 30px;
+    margin: 0;
+    background: #222;
+    text-align: center;
+    color: rgb(211, 133, 17);
+    font-size: 24px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li a {
+    padding: 25px 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidenav ul li a:hover {
+    background-color: #575757;
+}
+
+.social-media {
+    text-align: center; /* Center-align the social media links */
+    padding: 10px 0; /* Adds padding to the top and bottom for visual separation */
+}
+
+.social-media a {
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+    margin-top: 475px;
+}
+
+.social-media a:hover {
+    color: #ccc; /* Lightens the link color on hover for better interaction feedback */
+}
+/* Main content area next to the sidebar */
+#main-content {
+    margin-left: 250px; /* Same as the sidebar width */
+    padding: 20px;
+}
+
+#main-content h2 {
+    color: rgb(233, 233, 233);
+    font-size: 1.75em;
+    margin-bottom: 30px;
+    margin-top: 0px;;
+    padding:20px;
+    background:rgb(32, 31, 29);
+    border-radius: 8px;
+    border: 1.5px solid #d67c16;
+}
+
+/* Styling for sections within the main content */
+section {
+    background: #1e1e1e;
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #000000
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #333; /* Dark background for the table */
+    color: #ffffff; /* Light text for readability */
+    margin-top: 20px; /* Space from header */
+}
+
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #444; /* Subtle borders for cells */
+    text-align: left;
+    font-size: 1em;
+}
+
+thead {
+    background: #222; /* Slightly darker background for headers */
+    font-size: 1.2em;
+}
+
+tbody tr:hover {
+    background-color: #8a4606; /* Hover effect for rows */
+}
+
+#main-content h3 {
+    font-size: 1.5em;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+/* Adjusting the viewport for responsive design */
+@media (max-width: 768px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #main-content {
+        margin-left: 0;
+    }
+}
+
+
+
